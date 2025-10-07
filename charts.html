@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Televisions - Power Smart Australia</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo" onclick="location.href='index.html'">
+            <img src="PowerIcon.png" alt="Power Smart Logo" />
+            <span>Power Smart Australia</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="charts.html" class="active">Charts</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="max-width:1200px;margin:auto;padding:20px;">
+        <h1 style="text-align:center;color:#004f7c;">Power Smart Energy Visualisations</h1>
+        <p style="text-align:center;max-width:800px;margin:10px auto 40px;">
+            Explore TV energy consumption and power trends across Australia using D3.js charts.
+        </p>
+
+        <section class="chart-section">
+            <h2>Scatter Plot: Energy vs Star Rating</h2>
+            <div id="scatter-container" class="chart-container"></div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Donut Chart: Energy by Screen Type (All Sizes)</h2>
+            <div id="donut-container" class="chart-container"></div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Bar Chart: Energy for 55-inch TVs</h2>
+            <div id="bar-container" class="chart-container"></div>
+        </section>
+
+        <section class="chart-section">
+            <h2>Line Chart: Spot Power Prices (1998–2024)</h2>
+            <div id="line-container" class="chart-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Power Smart Australia | Created by Po Horng En</p>
+        <p>GenAI Acknowledgment: ChatGPT assisted in chart generation and optimisation</p>
+    </footer>
+
+    <!-- Chart scripts -->
+    <script src="js/scatter.js"></script>
+    <script src="js/donut.js"></script>
+    <script src="js/bar.js"></script>
+    <script src="js/line.js"></script>
+</body>
+
+</html>

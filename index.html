@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Smart Australia - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header with logo and navigation -->
+    <header>
+        <div class="logo" onclick="goHome()">
+            <img src="PowerIcon.png" alt="Power Smart Logo">
+            <span>Power Smart Australia</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="charts.html" class="nav-link">Charts</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <!-- Existing content -->
+  <h1>Appliance Energy Consumption</h1>
+  <!-- <svg width="300" height="150"></svg> -->
+
+  <!-- ✅ NEW: Responsive chart container -->
+  <div class="responsive-svg-container"></div>
+
+  <!-- ✅ Footer stays last -->
+  <footer>
+    <p>&copy; 2024 Power Smart Australia | Created by Po Horng En</p>
+    <p>GenAI Acknowledgment: GitHub Copilot helped with some code generation</p>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- <script src="script.js"></script> -->
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- NEW: T04-4 loader -->
+  <script src="t04-4-load.js"></script>
+  <!-- ✅ T04-5: Define createBarChart() and draw bars -->
+  <script src="t04-5-bars.js"></script>
+  <!-- <script src="t04-3-bars.js"></script> -->
+  <!-- <script src="energy-d3.js"></script> -->
+</body>
+
+
+</html>
