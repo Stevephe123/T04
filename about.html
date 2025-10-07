@@ -4,109 +4,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Power Smart Australia</title>
+    <title>About This Site - Power Smart Australia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Header with logo and navigation -->
+    <!-- Header -->
     <header>
-        <div class="logo" onclick="goHome()">
+        <div class="logo" onclick="location.href='index.html'">
             <img src="PowerIcon.png" alt="Power Smart Logo">
             <span>Power Smart Australia</span>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="charts.html" class="nav-link">Charts</a></li>
+                <li><a href="televisions.html" class="nav-link">Televisions</a></li>
                 <li><a href="about.html" class="nav-link active">About Us</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Main content -->
-    <main>
-        <h1>About Power Smart Australia</h1>
-        <p>We help Australian families understand how their appliances use energy and save money on electricity bills.
+    <!-- Main Content -->
+    <main
+        style="max-width:900px; margin:40px auto; padding:20px; background:#fff; border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+        <h1 style="color:#002b5c;">About This Site</h1>
+        <p style="margin-top:10px; margin-bottom:25px;">
+            This educational website demonstrates basic web development and shares simple pointers on appliance energy
+            consumption in Australia.
         </p>
 
-        <div class="info-section">
-            <h2>What We Do</h2>
-            <p>Power Smart Australia provides simple information about appliance energy use. We want to help Australian
-                households reduce their electricity bills and help the environment.</p>
-
-            <p>With electricity prices rising in Australia, it's important to understand which appliances use the most
-                energy. Our website gives you practical tips to save money.</p>
-        </div>
-
-        <div class="info-section">
-            <h2>Why Energy Efficiency Matters</h2>
-            <div class="reasons-list">
-                <div class="reason-item">
-                    <h3>💰 Save Money</h3>
-                    <p>Energy efficient appliances can save hundreds of dollars per year on electricity bills.</p>
-                </div>
-                <div class="reason-item">
-                    <h3>🌍 Help Environment</h3>
-                    <p>Using less energy reduces pollution and helps fight climate change.</p>
-                </div>
-                <div class="reason-item">
-                    <h3>🏠 Comfortable Home</h3>
-                    <p>Efficient appliances often work better and last longer than old ones.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-section">
-            <h2>Australian Energy Context</h2>
-            <p>Australia has some of the world's highest electricity prices. The average Australian household spends
-                about $1,800 per year on electricity. Here's what we focus on:</p>
-
-            <ul class="context-list">
-                <li>Australian electricity prices and peak times</li>
-                <li>Energy Star ratings used in Australia</li>
-                <li>Climate differences across Australian states</li>
-                <li>Government rebates for efficient appliances</li>
-                <li>Australian consumer protection laws</li>
-            </ul>
-        </div>
-
-        <div class="info-section">
-            <h2>Our Impact</h2>
-            <div class="impact-stats">
-                <div class="impact-item">
-                    <h3>5,000+</h3>
-                    <p>Families helped</p>
-                </div>
-                <div class="impact-item">
-                    <h3>$500,000</h3>
-                    <p>Total savings generated</p>
-                </div>
-                <div class="impact-item">
-                    <h3>200 tonnes</h3>
-                    <p>CO2 emissions reduced</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-section">
-            <h2>Contact Us</h2>
-            <div class="contact-info">
-                <p><strong>Email:</strong> info@powersmartaustralia.com.au</p>
-                <p><strong>Phone:</strong> 1800 POWER (1800 769 372)</p>
-                <p><strong>Address:</strong> 123 Energy Street, Melbourne VIC 3000</p>
-                <p><strong>Hours:</strong> Monday to Friday, 9AM - 5PM</p>
-            </div>
-        </div>
+        <section style="background:#fffdf8; border:1px solid #eee; border-radius:10px; padding:20px; line-height:1.8;">
+            <h2 style="color:#222; margin-bottom:10px;">Credits</h2>
+            <p>Created by <strong>Po Horng En</strong>. Design colours match the lightning “Power Smart” logo.</p>
+            <p>GenAI tools were used to help draft starter code and placeholder text.</p>
+        </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Power Smart Australia | Created by Po Horng En</p>
-        <p>GenAI Acknowledgment: GitHub Copilot helped with some code generation</p>
+        <p>&copy; 2025 Power Smart Australia | Created by Po Horng En</p>
+        <p>Built with assistance from GenAI for starter code/content</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
